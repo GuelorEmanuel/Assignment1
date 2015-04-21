@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>Assigment1Test.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>4</integer>
+		</dict>
+		<key>Assignment1.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+		<key>Assignment1Test.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
+		<key>Assignmnet1Test.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>BankAccountTest.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>ADA69E0C1A79A2EF00C18523</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>ADA82C511A7C4660003C4413</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>ADB2824D1A7AB91700013510</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>ADC8EEBD1A7D921900E16D17</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>ADC8EECF1A7D9B4F00E16D17</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

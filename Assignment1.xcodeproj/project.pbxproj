@@ -8,6 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		ADA69E111A79A2EF00C18523 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA69E101A79A2EF00C18523 /* main.swift */; };
+		ADA69E181A79A32D00C18523 /* BankAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA69E171A79A32D00C18523 /* BankAccount.swift */; };
+		ADA69E1A1A79A35D00C18523 /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA69E191A79A35D00C18523 /* Transaction.swift */; };
+		ADA69E1C1A79A39200C18523 /* DepositTransaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA69E1B1A79A39200C18523 /* DepositTransaction.swift */; };
+		ADA69E1E1A79A3E400C18523 /* WithdrawalTransaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA69E1D1A79A3E400C18523 /* WithdrawalTransaction.swift */; };
+		ADA69E201A79A43B00C18523 /* CheckTransaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA69E1F1A79A43B00C18523 /* CheckTransaction.swift */; };
+		ADC8EED51A7D9B4F00E16D17 /* Assigment1Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC8EED41A7D9B4F00E16D17 /* Assigment1Test.swift */; };
+		ADC8EED91A7D9B6700E16D17 /* BankAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA69E171A79A32D00C18523 /* BankAccount.swift */; };
+		ADC8EEDA1A7D9B6F00E16D17 /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA69E191A79A35D00C18523 /* Transaction.swift */; };
+		ADC8EEDB1A7D9B7300E16D17 /* DepositTransaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA69E1B1A79A39200C18523 /* DepositTransaction.swift */; };
+		ADC8EEDC1A7D9B7800E16D17 /* WithdrawalTransaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA69E1D1A79A3E400C18523 /* WithdrawalTransaction.swift */; };
+		ADC8EEDD1A7D9B7C00E16D17 /* CheckTransaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA69E1F1A79A43B00C18523 /* CheckTransaction.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,10 +36,25 @@
 /* Begin PBXFileReference section */
 		ADA69E0D1A79A2EF00C18523 /* Assignment1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Assignment1; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADA69E101A79A2EF00C18523 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		ADA69E171A79A32D00C18523 /* BankAccount.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BankAccount.swift; sourceTree = "<group>"; };
+		ADA69E191A79A35D00C18523 /* Transaction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Transaction.swift; sourceTree = "<group>"; };
+		ADA69E1B1A79A39200C18523 /* DepositTransaction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DepositTransaction.swift; sourceTree = "<group>"; };
+		ADA69E1D1A79A3E400C18523 /* WithdrawalTransaction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WithdrawalTransaction.swift; sourceTree = "<group>"; };
+		ADA69E1F1A79A43B00C18523 /* CheckTransaction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckTransaction.swift; sourceTree = "<group>"; };
+		ADC8EED01A7D9B4F00E16D17 /* Assigment1Test.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Assigment1Test.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADC8EED31A7D9B4F00E16D17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADC8EED41A7D9B4F00E16D17 /* Assigment1Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assigment1Test.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		ADA69E0A1A79A2EF00C18523 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADC8EECD1A7D9B4F00E16D17 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -42,6 +68,7 @@
 			isa = PBXGroup;
 			children = (
 				ADA69E0F1A79A2EF00C18523 /* Assignment1 */,
+				ADC8EED11A7D9B4F00E16D17 /* Assigment1Test */,
 				ADA69E0E1A79A2EF00C18523 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -50,6 +77,7 @@
 			isa = PBXGroup;
 			children = (
 				ADA69E0D1A79A2EF00C18523 /* Assignment1 */,
+				ADC8EED01A7D9B4F00E16D17 /* Assigment1Test.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -58,8 +86,30 @@
 			isa = PBXGroup;
 			children = (
 				ADA69E101A79A2EF00C18523 /* main.swift */,
+				ADA69E171A79A32D00C18523 /* BankAccount.swift */,
+				ADA69E191A79A35D00C18523 /* Transaction.swift */,
+				ADA69E1B1A79A39200C18523 /* DepositTransaction.swift */,
+				ADA69E1D1A79A3E400C18523 /* WithdrawalTransaction.swift */,
+				ADA69E1F1A79A43B00C18523 /* CheckTransaction.swift */,
 			);
 			path = Assignment1;
+			sourceTree = "<group>";
+		};
+		ADC8EED11A7D9B4F00E16D17 /* Assigment1Test */ = {
+			isa = PBXGroup;
+			children = (
+				ADC8EED41A7D9B4F00E16D17 /* Assigment1Test.swift */,
+				ADC8EED21A7D9B4F00E16D17 /* Supporting Files */,
+			);
+			path = Assigment1Test;
+			sourceTree = "<group>";
+		};
+		ADC8EED21A7D9B4F00E16D17 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ADC8EED31A7D9B4F00E16D17 /* Info.plist */,
+			);
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -82,6 +132,23 @@
 			productReference = ADA69E0D1A79A2EF00C18523 /* Assignment1 */;
 			productType = "com.apple.product-type.tool";
 		};
+		ADC8EECF1A7D9B4F00E16D17 /* Assigment1Test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADC8EED81A7D9B4F00E16D17 /* Build configuration list for PBXNativeTarget "Assigment1Test" */;
+			buildPhases = (
+				ADC8EECC1A7D9B4F00E16D17 /* Sources */,
+				ADC8EECD1A7D9B4F00E16D17 /* Frameworks */,
+				ADC8EECE1A7D9B4F00E16D17 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Assigment1Test;
+			productName = Assigment1Test;
+			productReference = ADC8EED01A7D9B4F00E16D17 /* Assigment1Test.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -92,6 +159,9 @@
 				ORGANIZATIONNAME = Comp1601;
 				TargetAttributes = {
 					ADA69E0C1A79A2EF00C18523 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					ADC8EECF1A7D9B4F00E16D17 = {
 						CreatedOnToolsVersion = 6.1.1;
 					};
 				};
@@ -109,9 +179,20 @@
 			projectRoot = "";
 			targets = (
 				ADA69E0C1A79A2EF00C18523 /* Assignment1 */,
+				ADC8EECF1A7D9B4F00E16D17 /* Assigment1Test */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ADC8EECE1A7D9B4F00E16D17 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		ADA69E091A79A2EF00C18523 /* Sources */ = {
@@ -119,6 +200,24 @@
 			buildActionMask = 2147483647;
 			files = (
 				ADA69E111A79A2EF00C18523 /* main.swift in Sources */,
+				ADA69E1C1A79A39200C18523 /* DepositTransaction.swift in Sources */,
+				ADA69E181A79A32D00C18523 /* BankAccount.swift in Sources */,
+				ADA69E201A79A43B00C18523 /* CheckTransaction.swift in Sources */,
+				ADA69E1A1A79A35D00C18523 /* Transaction.swift in Sources */,
+				ADA69E1E1A79A3E400C18523 /* WithdrawalTransaction.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADC8EECC1A7D9B4F00E16D17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADC8EEDD1A7D9B7C00E16D17 /* CheckTransaction.swift in Sources */,
+				ADC8EEDC1A7D9B7800E16D17 /* WithdrawalTransaction.swift in Sources */,
+				ADC8EEDB1A7D9B7300E16D17 /* DepositTransaction.swift in Sources */,
+				ADC8EEDA1A7D9B6F00E16D17 /* Transaction.swift in Sources */,
+				ADC8EED91A7D9B6700E16D17 /* BankAccount.swift in Sources */,
+				ADC8EED51A7D9B4F00E16D17 /* Assigment1Test.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,6 +313,38 @@
 			};
 			name = Release;
 		};
+		ADC8EED61A7D9B4F00E16D17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Assigment1Test/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		ADC8EED71A7D9B4F00E16D17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Assigment1Test/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -231,6 +362,15 @@
 			buildConfigurations = (
 				ADA69E151A79A2EF00C18523 /* Debug */,
 				ADA69E161A79A2EF00C18523 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADC8EED81A7D9B4F00E16D17 /* Build configuration list for PBXNativeTarget "Assigment1Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADC8EED61A7D9B4F00E16D17 /* Debug */,
+				ADC8EED71A7D9B4F00E16D17 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
