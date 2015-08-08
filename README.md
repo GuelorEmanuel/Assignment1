@@ -1,4 +1,5 @@
-# Assignment 1 submitted by: Guelor Emanuel 
+# Assignment 1
+by: Guelor Emanuel 
 Date: January 31, 2015
 Due: Feb 12, 2015
 
