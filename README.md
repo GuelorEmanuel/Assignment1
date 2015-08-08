@@ -1,10 +1,10 @@
-## Assignment 1 submitted by: Guelor Emanuel 100884107
+# Assignment 1 submitted by: Guelor Emanuel 
 Date: January 31, 2015
 Due: Feb 12, 2015
 
-##Purpose: To make us familiar with implementing  the visitor pattern and testing Swift classes
+# Purpose: To make us familiar with implementing  the visitor pattern and testing Swift classes
 
-##List of (Primary) Folders and Files included:
+# List of (Primary) Folders and Files included:
 
 - Assignment1.xcode
 
